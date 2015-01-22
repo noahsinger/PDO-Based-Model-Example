@@ -1,0 +1,168 @@
+.logo {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 4px;
+}
+
+	.logo#block1 {
+		margin-left: 10px;
+		background-color: #990000;
+	}
+
+	.logo#block2 {
+		background-color: #009900;
+	}
+
+	.logo#block3 {
+		background-color: #000099;
+	}
+
+table.colors {
+	border: 0;
+}
+
+	table.colors th {
+		display: none;
+	}
+
+	table.colors a {
+		text-decoration: none;
+		color: #333;
+	}
+
+	table.colors tr {
+		border: 1px solid #ccc;
+		display: block;
+		float: left;
+
+		height: 200px;
+		width: 200px;
+		margin: 20px 40px 20px 0;
+		padding: 20px;
+	}
+
+		table.colors tr.headers {
+			display: none;
+		}
+
+	table.colors td {
+		border: 1px solid #eee;
+		display: inline;
+	}
+
+		table.colors td.name {
+			float: left;
+			width: 50%;
+
+			font-weight: bold;
+
+			background-color: #fff;
+			border-left: 1px solid #fff;
+			margin: 10px 0 0 0;
+		}
+
+		table.colors td.color {
+			display: block;
+			height: 190px;
+			text-align: center;
+		}
+
+			table.colors td.color a {
+				display: block;
+
+				text-align: center;
+
+				padding-top: 95px;
+				height: 95px;
+			}
+
+		/* show the edit button when hovering */
+		table.colors tr:hover td.edit {
+			display: block;
+		}
+
+		table.colors td.edit {
+			display: none;
+
+			float: right;
+
+			position: relative;
+			top: -20px;
+			left: 15px;
+
+			border: 0;
+
+			background-color: #000;
+			border-radius: 30px;
+
+			width: 8px;
+			height: 20px;
+			padding-left: 13px;
+		}
+
+			table.colors td.edit a {
+				color: #eee;
+			}
+
+				/* hide the word "edit" and replace with a i */
+				table.colors td.edit a span {
+					display: none;
+				}
+
+				table.colors td.edit a:after {
+					content: "i";
+				}
+
+		/* show the destroy button when hovering */
+		table.colors tr:hover td.destroy {
+			display: block;
+		}
+
+		table.colors td.destroy {
+			display: none;
+
+			float: right;
+
+			position: relative;
+			top: -215px;
+			left: 45px;
+
+			border: 0;
+
+			background-color: #000;
+			border-radius: 30px;
+
+			width: 18px;
+			height: 20px;
+			padding-right: 2px;
+		}
+
+			table.colors td.destroy a {
+				color: #eee;
+			}
+
+				/* hide the word "destroy" and replace with a X */
+				table.colors td.destroy a span {
+					display: none;
+				}
+
+				table.colors td.destroy a:after {
+					content: "X";
+				}
+
+/* show page */
+.swatch {
+	float: left;
+
+	border: 1px solid #eee;
+	margin: 0 30px 0 0;
+	padding: 20px;
+}
+
+	.swatch span {
+		display: block;
+
+		width: 300px;
+		height: 300px;
+	}

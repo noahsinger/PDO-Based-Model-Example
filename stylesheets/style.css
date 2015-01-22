@@ -1,0 +1,137 @@
+body {
+	font-family: helvetica, sans-serif;
+	margin: 0;
+	background-color: #eee;
+	color: #222;
+}
+
+h2 {
+	color: #444;
+}
+
+.flash {
+	border: 1px solid blue;
+	margin: 0 0 20px 0;
+	padding: 10px;
+}
+
+.success {
+}
+
+.fail {
+	border-color: red;
+}
+
+/* form validation error markings */
+#error_explanation {
+	background-color: #fee;
+	border: 2px solid #F00;
+	color: #900;
+	padding: 20px;
+}
+
+	#error_explanation h2 {
+		color: #f00;
+		margin: 0 0 10px 0;
+	}
+
+	#error_explanation ul {
+		margin: 0;
+		padding: 0 0 0 20px;
+	}
+
+	form .error_field input {
+		border: 2px solid #f00;
+	}
+
+	form .error_field label {
+		color: #f00;
+	}
+
+/* Basic content */
+
+header#main {
+	margin: 0 auto;
+	padding: 20px 30px 30px 30px;
+	width: 90%;
+}
+
+	header#main h1 {
+		margin: 0;
+		padding: 0;
+
+		font-size: 1.2em;
+		font-weight: normal;
+		color: #444;
+
+		float: left;
+	}
+
+		header#main h1 a {
+			color: #333;
+			text-decoration: none;
+		}
+
+	header#main ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		float: right;
+	}
+
+		header#main ul li {
+			float: right;
+			margin-left: 10px;
+		}
+
+			header#main ul li a {
+				text-decoration: none;
+			}
+
+#content {
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 20px 30px;
+	width: 90%;
+	min-height: 500px;
+}
+
+	#content h1 {
+		margin-top: 16px;
+	}
+
+	table {
+		border: 1px solid #ccc;
+		border-collapse: collapse;
+	}
+
+	table th {
+		text-align: left;
+	}
+
+	table th, table td {
+		border: 1px solid #ccc;
+		padding: 5px 9px;
+	}
+
+div.left {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 0 10px 0 0;
+	float: left;
+}
+
+	div.left h2 {
+		margin: 0 0 15px 0;
+	}
+
+/* Forms */
+
+form label {
+	padding-right: 5px;
+}
+
+form input[type=text], form input[type=password], form select {
+	padding: 3px 5px;
+	font-size: 1em;
+}
